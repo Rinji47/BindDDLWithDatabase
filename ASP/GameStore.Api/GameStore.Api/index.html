@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="fetch()">Click me</button>
+    <script>
+      async function fetch() {
+        let url = "http://localhost:5109/games";
+        let fetchData = await fetch(url, {
+          method: "GET",
+        });
+        if (!fetchData.ok) {
+          console.log("Internal server error");
+        }
+        console.log(fetchData);
+      }
+    </script>
+  </body>
+</html>

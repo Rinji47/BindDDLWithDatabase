@@ -1,0 +1,61 @@
+﻿@model LoginFormASPCore8.Models.UserTbl
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>Login</h1>
+
+<h4>UserTbl</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+		@{
+			<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+				<symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+					<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+				</symbol>
+			</svg>
+
+			if (TempData["Success"] != null)
+			{
+				<div class="alert alert-success alert-dismissible fade show" role="alert">
+					<svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img"
+						 aria-label="Success:">
+						<use xlink:href="#check-circle-fill" />
+					</svg>
+					<strong>Successful!</strong> @TempData["Success"]
+					<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+				</div>
+			}
+            if (ViewBag.Message != null)
+            {
+                <p style="color: red">@ViewBag.Message</p>
+            }
+		}
+        <form asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+    <br/>
+    <p>
+        <a asp-controller="Home" asp-action="Register">Not Registered Yet? Click here to SignUp!</a>
+    </p>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
