@@ -1,0 +1,184 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programming\\C#\\LoginFormASPCore8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B47EA4D-C7EC-4351-9C51-C78EFABD552A}|LoginFormASPCore8\\LoginFormASPCore8.csproj|d:\\programming\\c#\\loginformaspcore8\\loginformaspcore8\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B47EA4D-C7EC-4351-9C51-C78EFABD552A}|LoginFormASPCore8\\LoginFormASPCore8.csproj|solutionrelative:loginformaspcore8\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B47EA4D-C7EC-4351-9C51-C78EFABD552A}|LoginFormASPCore8\\LoginFormASPCore8.csproj|d:\\programming\\c#\\loginformaspcore8\\loginformaspcore8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B47EA4D-C7EC-4351-9C51-C78EFABD552A}|LoginFormASPCore8\\LoginFormASPCore8.csproj|solutionrelative:loginformaspcore8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B47EA4D-C7EC-4351-9C51-C78EFABD552A}|LoginFormASPCore8\\LoginFormASPCore8.csproj|d:\\programming\\c#\\loginformaspcore8\\loginformaspcore8\\models\\usertbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B47EA4D-C7EC-4351-9C51-C78EFABD552A}|LoginFormASPCore8\\LoginFormASPCore8.csproj|solutionrelative:loginformaspcore8\\models\\usertbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B47EA4D-C7EC-4351-9C51-C78EFABD552A}|LoginFormASPCore8\\LoginFormASPCore8.csproj|d:\\programming\\c#\\loginformaspcore8\\loginformaspcore8\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B47EA4D-C7EC-4351-9C51-C78EFABD552A}|LoginFormASPCore8\\LoginFormASPCore8.csproj|solutionrelative:loginformaspcore8\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B47EA4D-C7EC-4351-9C51-C78EFABD552A}|LoginFormASPCore8\\LoginFormASPCore8.csproj|d:\\programming\\c#\\loginformaspcore8\\loginformaspcore8\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B47EA4D-C7EC-4351-9C51-C78EFABD552A}|LoginFormASPCore8\\LoginFormASPCore8.csproj|solutionrelative:loginformaspcore8\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B47EA4D-C7EC-4351-9C51-C78EFABD552A}|LoginFormASPCore8\\LoginFormASPCore8.csproj|d:\\programming\\c#\\loginformaspcore8\\loginformaspcore8\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B47EA4D-C7EC-4351-9C51-C78EFABD552A}|LoginFormASPCore8\\LoginFormASPCore8.csproj|solutionrelative:loginformaspcore8\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B47EA4D-C7EC-4351-9C51-C78EFABD552A}|LoginFormASPCore8\\LoginFormASPCore8.csproj|d:\\programming\\c#\\loginformaspcore8\\loginformaspcore8\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B47EA4D-C7EC-4351-9C51-C78EFABD552A}|LoginFormASPCore8\\LoginFormASPCore8.csproj|solutionrelative:loginformaspcore8\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B47EA4D-C7EC-4351-9C51-C78EFABD552A}|LoginFormASPCore8\\LoginFormASPCore8.csproj|d:\\programming\\c#\\loginformaspcore8\\loginformaspcore8\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B47EA4D-C7EC-4351-9C51-C78EFABD552A}|LoginFormASPCore8\\LoginFormASPCore8.csproj|solutionrelative:loginformaspcore8\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B47EA4D-C7EC-4351-9C51-C78EFABD552A}|LoginFormASPCore8\\LoginFormASPCore8.csproj|d:\\programming\\c#\\loginformaspcore8\\loginformaspcore8\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0B47EA4D-C7EC-4351-9C51-C78EFABD552A}|LoginFormASPCore8\\LoginFormASPCore8.csproj|solutionrelative:loginformaspcore8\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Programming\\C#\\LoginFormASPCore8\\LoginFormASPCore8\\Views\\Home\\Register.cshtml",
+              "RelativeDocumentMoniker": "LoginFormASPCore8\\Views\\Home\\Register.cshtml",
+              "ToolTip": "D:\\Programming\\C#\\LoginFormASPCore8\\LoginFormASPCore8\\Views\\Home\\Register.cshtml",
+              "RelativeToolTip": "LoginFormASPCore8\\Views\\Home\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T19:01:52.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserTbl.cs",
+              "DocumentMoniker": "D:\\Programming\\C#\\LoginFormASPCore8\\LoginFormASPCore8\\Models\\UserTbl.cs",
+              "RelativeDocumentMoniker": "LoginFormASPCore8\\Models\\UserTbl.cs",
+              "ToolTip": "D:\\Programming\\C#\\LoginFormASPCore8\\LoginFormASPCore8\\Models\\UserTbl.cs",
+              "RelativeToolTip": "LoginFormASPCore8\\Models\\UserTbl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T11:34:15.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\Programming\\C#\\LoginFormASPCore8\\LoginFormASPCore8\\Views\\Home\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "LoginFormASPCore8\\Views\\Home\\Dashboard.cshtml",
+              "ToolTip": "D:\\Programming\\C#\\LoginFormASPCore8\\LoginFormASPCore8\\Views\\Home\\Dashboard.cshtml",
+              "RelativeToolTip": "LoginFormASPCore8\\Views\\Home\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T11:15:56.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Programming\\C#\\LoginFormASPCore8\\LoginFormASPCore8\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "LoginFormASPCore8\\Views\\Home\\Login.cshtml",
+              "ToolTip": "D:\\Programming\\C#\\LoginFormASPCore8\\LoginFormASPCore8\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "LoginFormASPCore8\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T10:51:50.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Programming\\C#\\LoginFormASPCore8\\LoginFormASPCore8\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LoginFormASPCore8\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Programming\\C#\\LoginFormASPCore8\\LoginFormASPCore8\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LoginFormASPCore8\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAwwDAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T10:50:52.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Programming\\C#\\LoginFormASPCore8\\LoginFormASPCore8\\appsettings.json",
+              "RelativeDocumentMoniker": "LoginFormASPCore8\\appsettings.json",
+              "ToolTip": "D:\\Programming\\C#\\LoginFormASPCore8\\LoginFormASPCore8\\appsettings.json",
+              "RelativeToolTip": "LoginFormASPCore8\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-04T10:40:47.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "D:\\Programming\\C#\\LoginFormASPCore8\\LoginFormASPCore8\\Models\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "LoginFormASPCore8\\Models\\MyDbContext.cs",
+              "ToolTip": "D:\\Programming\\C#\\LoginFormASPCore8\\LoginFormASPCore8\\Models\\MyDbContext.cs",
+              "RelativeToolTip": "LoginFormASPCore8\\Models\\MyDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T10:40:15.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Programming\\C#\\LoginFormASPCore8\\LoginFormASPCore8\\Program.cs",
+              "RelativeDocumentMoniker": "LoginFormASPCore8\\Program.cs",
+              "ToolTip": "D:\\Programming\\C#\\LoginFormASPCore8\\LoginFormASPCore8\\Program.cs",
+              "RelativeToolTip": "LoginFormASPCore8\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T10:17:23.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Programming\\C#\\LoginFormASPCore8\\LoginFormASPCore8\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LoginFormASPCore8\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Programming\\C#\\LoginFormASPCore8\\LoginFormASPCore8\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LoginFormASPCore8\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwCQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T11:27:10.635Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

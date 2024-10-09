@@ -1,21 +1,62 @@
 using BindDDLWithDatabase.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Diagnostics;
 
 namespace BindDDLWithDatabase.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly MyDbContext context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(MyDbContext context)
         {
-            _logger = logger;
+            this.context = context;
+        }
+
+        private StudentModel BindDDL()
+        {
+            StudentModel stdModel = new StudentModel();
+            stdModel.StudentList = new List<SelectListItem>();
+
+            var data = context.Students.ToList();
+
+            stdModel.StudentList.Add(new SelectListItem
+            {
+                Text = "Select Name",
+                Value = ""
+            });
+
+            foreach (var item in data)
+            {
+                stdModel.StudentList.Add(new SelectListItem
+                {
+                    Text = item.StudentName,
+                    Value = item.Id.ToString()
+                });
+            }
+
+            return stdModel;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var std = BindDDL();
+
+            return View(std);
+        }
+
+        [HttpPost]
+        public IActionResult Index(StudentModel std)
+        {
+            var student = context.Students.Where(x => x.Id == std.Id).FirstOrDefault();
+            if (student != null)
+            {
+                ViewBag.SelectedValue = student.StudentName;
+            }
+            var myStudent = BindDDL();
+
+            return View(myStudent);
         }
 
         public IActionResult Privacy()
