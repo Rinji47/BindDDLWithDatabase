@@ -82,7 +82,7 @@ namespace LoginFormASPCore8.Controllers
             {
                 await context.UserTbls.AddAsync(user);
                 await context.SaveChangesAsync();
-                TempData["Success"] = "Account Logged in successfully!";
+                TempData["Success"] = "Account Registered successfully!";
                 return RedirectToAction("Login", "Home");
             }
             return View(user);
